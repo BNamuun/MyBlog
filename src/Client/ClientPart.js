@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { Header } from "./Header";
+import { Header1 } from "./Header";
 
 export function ClientPart() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Header />} />
+        <Route path="/" element={<Header1 />} />
       </Routes>
     </>
   );
